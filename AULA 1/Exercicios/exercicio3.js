@@ -23,7 +23,7 @@ function  resultado(){
     if (mediaNotas <= 5) {
         console.log("Reprovado");
 }
-    else if (mediaNotas > 5 || mediaNotas < 7) {
+    else if (mediaNotas > 5 && mediaNotas < 7) {
         console.log("Recuperação");
     }
     else  {
